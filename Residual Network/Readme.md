@@ -25,4 +25,7 @@ Deep Residual Learning for Image Recognition(이하 ResNet)은 2015년 Kaiming H
     - ResNet-20 > ResNet-56의 의미
         - ResNet의 경우 **Degradation 문제 해결** 및 depth 증가에 따른 성능 향상
 
-![ex_screenshot](./img/screenshot.png)
+<img src="./img/Train_loss.png" width="50%">
+<img src="./img/Test_loss.png" width="50%">
+
+
