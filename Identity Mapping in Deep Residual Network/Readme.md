@@ -41,15 +41,15 @@
 
 ### Summary Table
 
-<img src="./img/summary table.png">
+<img src="./img/summary table.PNG">
 
 ### Test Error Graph
 
-![Identity%20Mapping%20in%20Deep%20Residual%20Networks%20Testing%2050c3404c7111413ca80dfe375f0a2c09/Untitled%202.png](Identity%20Mapping%20in%20Deep%20Residual%20Networks%20Testing%2050c3404c7111413ca80dfe375f0a2c09/Untitled%202.png)
+<img src="./img/Test_error.PNG">
 
 ### Train Error Graph
 
-![Identity%20Mapping%20in%20Deep%20Residual%20Networks%20Testing%2050c3404c7111413ca80dfe375f0a2c09/Untitled%203.png](Identity%20Mapping%20in%20Deep%20Residual%20Networks%20Testing%2050c3404c7111413ca80dfe375f0a2c09/Untitled%203.png)
+<img src="./img/Train_error.png">
 
 # Appendix
 
@@ -57,13 +57,8 @@
 
 - ResNet-20에서 가장 성능이 좋았던 Conv Shortcut Block에 Full Pre-Activation의 Forward 방식을 적용하여 학습 시켜 봄
 
-    ![Identity%20Mapping%20in%20Deep%20Residual%20Networks%20Testing%2050c3404c7111413ca80dfe375f0a2c09/Untitled%204.png](Identity%20Mapping%20in%20Deep%20Residual%20Networks%20Testing%2050c3404c7111413ca80dfe375f0a2c09/Untitled%204.png)
+    <img src="./img/con&FPA.PNG">
 
 - Convolution Shortcut & Full Pre-Activation 실험 결과
     - Original Block, Convolution Block 보다는 성능이 좋고 **(8.16 < 8.56, 8.43)**
     - Identity Shortcut & Full Pre-Activation 보다는 성능이 낮다 **(8.16 > 8.08)**
-- 의미
-    - **Convolution Block의 Forward 구조**를 **Pre-Activation 기법**으로 하는 것이 **좋음**
-    - 단, **Pre-Activation 기법**의 **Shortcut Connection**을 **Convolution으로 적용**하는 것은 **Identity 보다 나쁨**
-    - Convolution Block과 Full Pre-Activation의 **시너지 효과를 기대했으나 결과는 그렇지 못함**.
-        - Pre-Activation이 Conv에 주는 이익 < Conv가 Pre-Activation에 주는 손해
