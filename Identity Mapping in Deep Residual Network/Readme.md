@@ -9,7 +9,7 @@
 
 # Model Overview
 
-![Identity%20Mapping%20in%20Deep%20Residual%20Networks%20Testing%2050c3404c7111413ca80dfe375f0a2c09/Untitled.png](Identity%20Mapping%20in%20Deep%20Residual%20Networks%20Testing%2050c3404c7111413ca80dfe375f0a2c09/Untitled.png)
+<img src="./img/Model Summary.png">
 
 # Result
 
@@ -41,7 +41,7 @@
 
 ### Summary Table
 
-![Identity%20Mapping%20in%20Deep%20Residual%20Networks%20Testing%2050c3404c7111413ca80dfe375f0a2c09/Untitled%201.png](Identity%20Mapping%20in%20Deep%20Residual%20Networks%20Testing%2050c3404c7111413ca80dfe375f0a2c09/Untitled%201.png)
+<img src="./img/summary table.png">
 
 ### Test Error Graph
 
